@@ -1,0 +1,12 @@
+{
+  "name": "readalong-scripts",
+  "type": "module",
+  "scripts": {
+    "ingest": "node ingest-epub.mjs"
+  },
+  "dependencies": {
+    "epub2": "^3.0.2",
+    "cheerio": "^1.0.0",
+    "@supabase/supabase-js": "^2.49.0"
+  }
+}
